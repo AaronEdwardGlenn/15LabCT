@@ -23,7 +23,6 @@ describe('app routes', () => {
   let user; 
   beforeEach(async() => {
     user = await User.create({
-      name: 'calvin',
       email: 'cool@cool.cool', 
       password: 'coolidge'
     }); 
